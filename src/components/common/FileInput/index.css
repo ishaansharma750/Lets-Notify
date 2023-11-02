@@ -1,0 +1,89 @@
+.custom-input {
+  background-color: rgb(247, 243, 243);
+  border: 2px solid var(--purple);
+  border-radius: 0.35rem;
+  padding: 1rem;
+  font-size: 1rem;
+  margin: 1rem 1rem;
+  width: 86%; 
+  font-weight: 500;
+  display: block;
+}
+.custom-input:focus {
+  outline: none;
+  border-color: rgb(156, 35, 35);
+}
+.custom-input::placeholder {
+  color: rgb(88, 86, 86);
+}
+.label-input {
+   color: rgb(88, 86, 86);
+  display: block;
+}
+.active {
+  border-color: lightgrey;
+}
+
+
+
+.small-input {
+  background-color: rgb(247, 243, 243);
+  color: var(--white);
+  border: 2px solid var(--purple);
+  border-radius: 0.35rem;
+  padding: 1rem;
+  font-size: 1rem;
+  margin: 1rem 1rem;
+  width: 70%;
+  font-weight: 500;
+  /* display: block;/ */
+}
+.small-input:focus {
+  outline: none;
+  border-color: rgb(156, 35, 35);
+}
+.small-input::placeholder {
+  font-size: 14px;
+  color: rgb(88, 86, 86);
+}
+.label-input {
+   color: rgb(88, 86, 86);
+  display: block;
+}
+.active {
+  border-color: lightgrey;
+}
+
+
+
+.extra-small-input {
+  background-color: rgb(247, 243, 243);
+  color: var(--white);
+  border: 2px solid var(--purple);
+  border-radius: 0.35rem;
+  padding: 1rem;
+  font-size: 1rem;
+  margin: 1rem 1rem;
+  width: 52%;
+  font-weight: 500;
+  /* display: block; */
+}
+.extra-small-input:focus {
+  outline: none;
+  border-color: rgb(156, 35, 35);
+}
+.extra-small-input::placeholder {
+  font-size: 12px;
+  color: rgb(88, 86, 86);
+}
+.label-input {
+   color: rgb(88, 86, 86);
+  display: block;
+}
+.active {
+  border-color: lightgrey;
+}
+
+.line{
+  margin: 10px 20px;
+}
