@@ -1,6 +1,6 @@
 import React from "react";
 
-const Templates = ({ tableData, onRowClick }) => {
+const Templates = ({ tableData}) => {
   return (
     <table style={{ width: "80%",margin:"10px 70px" }}>
       <thead>
@@ -17,9 +17,6 @@ const Templates = ({ tableData, onRowClick }) => {
           return (
             <tr
               key={index}
-              onClick={() => {
-                onRowClick(tableRow);
-              }}
               style={{ cursor: "pointer" }}
               className="template-table-row"
             >

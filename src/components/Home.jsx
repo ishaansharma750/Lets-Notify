@@ -30,6 +30,8 @@ const defaultModalState = {
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // Dummy Table data 
   const [tableData, setTableData] = useState([
     {
       templateName: "1",
@@ -53,6 +55,8 @@ const Home = () => {
 
   const [modalState, setModalState] = useState(defaultModalState);
 
+  // Modal
+
   const openModal = () => {
     setIsModalOpen(true);
   };
@@ -61,10 +65,8 @@ const Home = () => {
     setIsModalOpen(false);
   };
 
-  const onRowClick = (tableRow) => {
-    openModal();
-    setModalState(tableRow);
-  };
+
+
 
   const onCreateModal = () => {
     openModal();
@@ -111,7 +113,7 @@ const Home = () => {
             </div>
           </div>
           <div className="table">
-          <Templates tableData={tableData} onRowClick={onRowClick} />
+          <Templates tableData={tableData} />
           </div>
 
 

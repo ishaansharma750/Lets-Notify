@@ -302,9 +302,9 @@ th {
 
 @media (min-width: 300px) and (max-width: 600px) {
   .template {
-    margin: 0px 15px;
+    margin: 0px -10px;
     width: 85%;
-    font-size: 12px;
+    font-size: 10px;
   }
   .modal {
     width: 82vw;
@@ -326,7 +326,7 @@ th {
     height: auto;
   }
   .template-icons {
-    gap: 1rem;
+    gap: 0.8rem;
   }
   .right{
     width: 70px;
@@ -334,6 +334,9 @@ th {
   .navbar-text {
     width: 120px;
     font-size: 20px;
+  }
+    .create-button {
+    width: 70px;
   }
   .table{
     position: relative;
