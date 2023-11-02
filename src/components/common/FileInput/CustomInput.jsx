@@ -1,10 +1,6 @@
 import React from "react";
 import "./index.css";
 
-// const INPUT_VARIANTS = {
-//   DEFAULT: "DEFAULT",
-//   SMALL: "SMALL",
-// };
 
 const CustomInput = ({
   type = "text",
